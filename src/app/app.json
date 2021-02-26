@@ -1,0 +1,13 @@
+{
+  "name": "app-react-template",
+  "displayName": "app-react-template",
+  "api": {
+    "url": "http://127.0.0.1",
+    "port": {
+      "one": "8081"
+    },
+    "target": {
+      "one": "menu"
+    }
+  }
+}
