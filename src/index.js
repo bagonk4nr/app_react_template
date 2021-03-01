@@ -5,9 +5,13 @@ import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 import { AppRegistry } from 'react-native';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'jquery';
+import '@popperjs/core';
+import 'react-bootstrap';
 
-AppRegistry.registerComponent('AppDayNat', () => App);
-AppRegistry.runApplication('AppDayNat', { initialProps: {}, rootTag: document.getElementById('root') });
+
+AppRegistry.registerComponent('app-react-template', () => App);
+AppRegistry.runApplication('app-react-template', { initialProps: {}, rootTag: document.getElementById('root') });
 
 // ReactDOM.render(
 //   <React.StrictMode>
