@@ -1,10 +1,10 @@
-import Menu from '../_models/Menu1';
+import User from '../_models/User';
 import { api } from '../app.json';
 import * as React from 'react';
 import axios from 'axios';
 import { withRouter } from 'react-router-dom';
 
-class ApiMenu extends React.Component {
+class ApiUser extends React.Component {
 
         menus;
         apiUrl;
@@ -12,8 +12,8 @@ class ApiMenu extends React.Component {
 
         constructor(props) {
             super(props);
-            this.apiUrl = 'http://192.168.100.100:8081/menu';
-            this.menus = new Menu(this);
+            this.apiUrl = 'http://192.168.100.100:8081/user';
+            this.menus = new User(this);
             this.state = {
                 asyncData: < > < />};
                 this.newArr = [];
@@ -78,4 +78,4 @@ class ApiMenu extends React.Component {
             }
         }
 
-        export default withRouter(ApiMenu);
+        export default withRouter(ApiUser);

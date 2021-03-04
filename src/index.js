@@ -5,9 +5,10 @@ import App from './app/App';
 import reportWebVitals from './reportWebVitals';
 import { AppRegistry } from 'react-native';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'jquery';
+// import 'jquery';
 import '@popperjs/core';
-import 'react-bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle';
+// import 'react-bootstrap';
 
 
 AppRegistry.registerComponent('app-react-template', () => App);

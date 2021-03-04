@@ -1,0 +1,295 @@
+.boxphoto {
+    
+    margin-top: 20% !important;
+    background-color: rgb(152, 207, 255) !important;
+    
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    
+    border-radius: 15px 50px;
+    
+    padding: 10px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    max-width: 100%;
+    max-height: 150px;
+    margin-left: 1%;
+    margin-right: 1%;
+    align-items: center;
+}
+
+.front {
+    overflow: auto;
+    /* z-index: -1; */
+}
+.photo {
+    top: 50%;
+    left: 50%;
+    max-width: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    min-width: 100px;
+    border-color: deeppink;
+}
+
+.box-bio {
+    border-radius: 15px;
+    background: rgba( 31, 38, 135, 0.37);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.pencil-bottom {
+    position: fixed;
+    bottom: 40px;
+    left: 25%;
+    overflow: auto;
+    position: fixed;
+}
+
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;
+    visibility: visible; 
+    overflow: auto;
+    background-color: #000000;
+    z-index: 1050 !default;
+}
+
+@media screen and (min-width: 1010px) and ( max-width: 1200px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 28%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 910px) and ( max-width: 1000px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 810px) and ( max-width: 900px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 710px) and ( max-width: 800px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 28%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 610px) and ( max-width: 700px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 510px) and ( max-width: 600px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 410px) and ( max-width: 500px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 310px) and ( max-width: 400px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 210px) and ( max-width: 300px) and (orientation: portrait) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 1010px) and ( max-width: 1400px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 11%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 910px) and ( max-width: 1000px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 810px) and ( max-width: 900px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 15%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 710px) and ( max-width: 800px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 11%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 610px) and ( max-width: 700px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 510px) and ( max-width: 600px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 410px) and ( max-width: 500px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 310px) and ( max-width: 400px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+@media screen and (min-width: 210px) and ( max-width: 300px) and (orientation: landscape) {
+    .pencil-bottom {
+
+        left: 25%;
+    }
+
+    .scrollable {
+        height: 275px;
+        width: auto;
+        overflow-y: scroll;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+}
+
+

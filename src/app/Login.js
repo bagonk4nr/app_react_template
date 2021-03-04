@@ -73,10 +73,8 @@ class Login extends React.Component {
                 { flex: 1 }
             } >
             <
-            div style = {
-                { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, justifyContent: 'center', alignItems: 'center', alignSelf: 'center', height: '50vh' }
-            } > <
-            div className = "d-flex justify-content-center h-100" >
+            div className = "centers" > <
+            div className = "justify-content-center w-100 w-0 p-0 login-h" >
             <
             div className = "card" >
             <
@@ -84,7 +82,7 @@ class Login extends React.Component {
             <
             h3 > Sign In < /
             h3 > <
-            div className = "d-flex justify-content-end social_icon" >
+            div className = "d-flex justify-content-end social_icon " >
             <
             span > < i className = "fa fa-facebook-square" >
             <
@@ -105,7 +103,7 @@ class Login extends React.Component {
             }
             id = "login" >
             <
-            div className = "input-group form-group" >
+            div className = "input-group form-group w-100 h-100 p-0 w-0 h-0" >
             <
             div className = "input-group-prepend" >
             <
@@ -123,7 +121,7 @@ class Login extends React.Component {
             required / >
             <
             /div> <
-            div className = "input-group form-group" >
+            div className = "input-group form-group w-100 h-100 p-0 w-0 h-0" >
             <
             div className = "input-group-prepend" >
             <
@@ -141,7 +139,7 @@ class Login extends React.Component {
             required / >
             <
             /div> <
-            div className = "row align-items-center remember" >
+            div className = "row align-items-center remember w-100 h-100 p-0 w-0 h-0" >
             <
             input id = "rememberme"
             type = "checkbox" / > Remember Me <
@@ -157,7 +155,7 @@ class Login extends React.Component {
             /div> <
             div className = "card-footer" >
             <
-            div className = "d-flex justify-content-center links" >
+            div className = "d-flex justify-content-center links w-100 h-100 p-0 w-0 h-0" >
             Dont have an account ?
             <
             a href = "#" > Sign Up < /a>  < /

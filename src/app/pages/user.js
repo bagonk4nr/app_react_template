@@ -1,18 +1,32 @@
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { View } from 'react-native';
-import { Link } from 'react-router-dom';
+import ApiUser from '../_services/ApiUser';
+import ApiNavBarHeader from '../_services/ApiNavBarHeader';
+import ApiNavBarBottom from '../_services/ApiNavbarBottom';
 
 export class AutoIndex extends React.Component {
+
+  
+
   render = () => {
     return (
-      <View>
-        <div>
-          hohoho
+      <View style = {
+        { flex: 1 }
+    } >
+        
+        <div className="container">
+        <
+        ApiNavBarHeader / >
+        
+          <
+        ApiUser / >
+        
+        <
+        ApiNavBarBottom / >
+
+        
         </div>
-        <button>
-        <Link to={{pathname: "/", state: {url: "home"}}} className="dropdown-item" key={7 * (1+6)} > Home </Link>
-        </button>
       </View>
    );
   }

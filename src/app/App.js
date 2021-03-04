@@ -17,9 +17,9 @@ import Home from './Home';
 import Login from './Login';
 import '../assets/css/app.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import 'jquery';
+// import 'jquery';
 import '@popperjs/core';
-import 'react-bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import { View } from 'react-native';
 
 class Routenya extends React.Component < any > {
@@ -55,8 +55,10 @@ class Routenya extends React.Component < any > {
                 View style = {
                     { flex: 1 }
                 } >
+                <div className="container  pa0 flex justify-center">
                 <
                 AutoIndex / >
+                </div>
                 <
                 /View> </
                 React.StrictMode >
@@ -68,7 +70,7 @@ class Routenya extends React.Component < any > {
                 <
                 View style = {
                     { flex: 1 }
-                } > < Home / > < /View> < /React.StrictMode >
+                } > <div className="container  pa0 flex justify-center"> < Home / > </div> < /View> < /React.StrictMode >
             );
 
 
@@ -76,7 +78,14 @@ class Routenya extends React.Component < any > {
             localStorage.clear();
             return ( < React.StrictMode >
                 <
+                View style = {
+                    { flex: 1 }
+                } >
+                <div className="container  pa0 flex justify-center">
+                <
                 Login / >
+                </div>
+                < /View>
                 <
                 /React.StrictMode >
             );

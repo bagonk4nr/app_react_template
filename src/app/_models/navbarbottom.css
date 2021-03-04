@@ -34,8 +34,8 @@
 }
 
 .spaces3 {
-    margin-left: 2.35rem;
-    margin-right: 2.35rem;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
 }
 
 .spaces4 {
@@ -51,4 +51,60 @@
 .spaces6 {
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .spaces3 {
+        margin-left: 9.2rem;
+        margin-right: 9.2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .spaces3 {
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .spaces3 {
+        margin-left: 6.2rem;
+        margin-right: 6.2rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .spaces3 {
+        margin-left: 5.2rem;
+        margin-right: 5.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .spaces3 {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .spaces3 {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .spaces3 {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .spaces3 {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }

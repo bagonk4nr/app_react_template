@@ -1,0 +1,339 @@
+
+
+.rbodycorners {
+    
+
+    background: rgba(235, 175, 151, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    
+    position: relative;
+    border-radius: 15px 50px;
+    padding: 10px;
+
+    max-height: 150px;
+
+}
+
+.mainr {
+    display: block !important;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.btnmenu {
+    border-radius: 15px;
+    background: #fd3efd;
+    
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    padding: 5px;
+    width: 76px;
+    height: 76px;
+    margin-left: 2%;
+}
+
+.iconchangers {
+    color: #fff;
+}
+
+.no-colors {
+    background: none !important;
+    background-color: none !important;
+    color: none !important;
+    border: none !important;
+}
+
+.spaces {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+
+@media screen and (min-width: 1010px) and ( max-width: 1200px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 910px) and ( max-width: 1000px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 810px) and ( max-width: 900px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 710px) and ( max-width: 800px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 610px) and ( max-width: 700px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 510px) and ( max-width: 600px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 410px) and ( max-width: 500px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        min-width: 100%;
+        margin-top: 20% !important;
+        /* margin-left: 0%;
+        margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 310px) and ( max-width: 400px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 5px;
+        width: 100%;
+        /* left: 0%; */
+        min-width: 100%;
+        margin-top: 27% !important;
+        margin-left: 0;
+        margin-right: 0;
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+
+    .btnmenu {
+        
+        width: 64px;
+        height: 64px;
+        font-size: small;
+        margin-left: 1%;
+        align-items: center;
+    }
+
+    .spaces {
+        margin-left: 0.25rem;
+        margin-right: 0.25rem;
+    }
+
+}
+
+@media screen and (min-width: 210px) and ( max-width: 300px) and (orientation: portrait) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 1010px) and ( max-width: 1400px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 910px) and ( max-width: 1000px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 810px) and ( max-width: 900px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        min-width: 100%;
+        margin-top: 10% !important;
+        margin-left: 0%;
+        margin-right: 0%;
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 710px) and ( max-width: 800px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 610px) and ( max-width: 700px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        min-width: 100%;
+        margin-top: 13% !important;
+        margin-left: 0%;
+        margin-right: 0%;
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 510px) and ( max-width: 600px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 410px) and ( max-width: 500px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 310px) and ( max-width: 400px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+
+@media screen and (min-width: 210px) and ( max-width: 300px) and (orientation: landscape) {
+    .rbodycorners {
+        padding: 10px;
+        width: 100%;
+        /* left: 0%; */
+        /* max-width: 100%; */
+        /* margin-top: 18% !important; */
+        /* margin-left: 0%; */
+        /* margin-right: 0%; */
+        /* margin-bottom: 1%; */
+        align-items: center;
+
+    }
+}
+

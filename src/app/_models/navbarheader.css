@@ -1,10 +1,15 @@
 .btn-header {
-    margin-left: 0rem !important;
+    /* position: absolute; */
+    right: 0px;
     float: right !important;
     background: none !important;
-    background-color: none !important;
-    color: none !important;
     border: none !important;
+}
+
+.drop-header {
+    position: fixed;
+    /* right: 0px; */
+    /* float: right !important; */
 }
 
 .bg-header {

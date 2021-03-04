@@ -1,13 +1,12 @@
 import * as React from 'react';
 import CheckIsInt from '../_lib/CheckIsInt';
 import 'bootstrap/dist/css/bootstrap.css';
-// import 'jquery';
-// import '@popperjs/core';
-// import 'bootstrap/dist/js/bootstrap.bundle';
-import { Dropdown } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import './navbarbottom.css';
-import '../../assets/lineawesome/css/line-awesome.css';
+// import 'jquery';
+import '@popperjs/core';
+import 'bootstrap/dist/js/bootstrap.bundle';
+import { Link } from 'react-router-dom';
+
 
 class NavBarBottom extends React.Component {
         dataMenu;
@@ -91,8 +90,9 @@ class NavBarBottom extends React.Component {
 
 
                                 if (this.dataMenu[k].idsubnavbarheader != null && captions1 !== this.dataMenu[k].captions) {
-                                    submenu.push( < Dropdown.Menu className = "dropdown-menu no-color"
-                                        key = { 6 * (k + d) } > { submenu1 } < /Dropdown.Menu > );
+                                    submenu.push( < div className = "dropdown-menu no-color"
+                                    aria-labelledby = "dropdownMenuButton"
+                                        key = { 6 * (k + d) } > { submenu1 } < /div > );
                                     }
 
                                 }
@@ -100,15 +100,19 @@ class NavBarBottom extends React.Component {
                                 // tslint:disable-next-line:max-line-length
                                 if (this.dataMenu[k].idsubnavbarheader != null && captions !== this.dataMenu[k].captions) {
                                     // console.log({submenu});
-                                    btnx.push( < Dropdown key = { 5 * (k + d) }
-                                            className = "no-color" > < Dropdown.Toggle key = { 8 * (k + d) }
-                                            // variant = "info"
-                                            className = "btn-bottom no-color" >
+                                    btnx.push( < div className = "dropdown" key = { 5 * (k + d) }
+                                            className = "no-color" > < button className = "btn navbar-toggler btn-bottom no-color dropdown-toggle"
+                                            type = "button"
+                                            id = "dropdownMenuButton"
+                                            data-toggle = "dropdown"
+                                            aria-haspopup = "true"
+                                            aria-expanded = "false" key = { 8 * (k + d) }
+                                             >
                                             <
                                             i className = {
                                                 this.dataMenu[k].icon + " iconchangers"
-                                            } > < /i> { submenu } </
-                                            Dropdown.Toggle > < / Dropdown> );
+                                            } > < /i>  </
+                                            button > { submenu } < / div> );
                                             if (this.jmlhButton === 3) {
                                                 btnx.push( < span key = { 4 * (k + s) }
                                                     className = "spaces3" > < /span>);
@@ -127,7 +131,7 @@ class NavBarBottom extends React.Component {
                                                             }
                                                         } else if (this.dataMenu[k].idsubnavbarheader == null) {
                                                             btnx.push( < Link key = { 3 * (k + 5) }
-                                                                className = "btn btn-bottom no-color"
+                                                                className = "btn navbar-toggler btn-bottom no-color"
                                                                 to = { this.dataMenu[k].links } > < i className = { this.dataMenu[k].icon + " iconchangers" } > < /i> < /
                                                                 Link > );
                                                             // btnx.push(<Link to='/users' className="btn btn-secondary" key={2 * (k+6)} >{ this.dataMenu[k].captions } </Link>);

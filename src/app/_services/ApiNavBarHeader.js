@@ -1,4 +1,4 @@
-import NavBarHeader from '../_models/NavBarHeader';
+import NavBarHeader from '../_models/NavBarHeader1';
 import { api } from '../app.json';
 import * as React from 'react';
 import axios from 'axios';

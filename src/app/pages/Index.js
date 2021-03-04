@@ -1,12 +1,10 @@
 import * as React from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
+import { View } from 'react-native';
 import ApiMenu from '../_services/ApiMenu';
 import ApiNavBarHeader from '../_services/ApiNavBarHeader';
 import ApiNavBarBottom from '../_services/ApiNavbarBottom';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'jquery';
-import '@popperjs/core';
-import 'react-bootstrap';
-import { View } from 'react-native';
+
 
 class Index extends React.Component {
 
@@ -16,13 +14,18 @@ class Index extends React.Component {
             View style = {
                 { flex: 1 }
             } >
+            <div className="container  pa0 flex justify-center">
+
             <
             ApiNavBarHeader / >
+
             <
-            p > < /p > <
             ApiMenu / >
+
             <
             ApiNavBarBottom / >
+
+            </div>
 
             <
             /View>

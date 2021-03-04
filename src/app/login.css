@@ -1,21 +1,25 @@
 .card {
     top: 50%;
-    height: 370px;
+    height: auto;
     margin-top: auto;
     margin-bottom: auto;
-    width: 400px;
+    width: auto;
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .social_icon span {
-    font-size: 60px;
+    font-size: 45px;
     margin-left: 10px;
     color: #FFC312;
+    height: auto;
+    width: auto;
 }
 
 .social_icon span:hover {
     color: white;
     cursor: pointer;
+    height: auto;
+    width: auto;
 }
 
 .card-header h3 {
@@ -24,12 +28,14 @@
 
 .social_icon {
     position: absolute;
-    right: 20px;
-    top: -45px;
+    right: 10px;
+    top: -25px;
+    height: auto;
+    width: auto;
 }
 
 .input-group-prepend span {
-    width: 50px;
+    width: auto;
     background-color: #FFC312;
     color: black;
     border: 0 !important;
@@ -45,8 +51,8 @@ input:focus {
 }
 
 .remember input {
-    width: 20px;
-    height: 20px;
+    width: auto;
+    height: auto;
     margin-left: 15px;
     margin-right: 5px;
 }
@@ -54,7 +60,7 @@ input:focus {
 .login_btn {
     color: black;
     background-color: #FFC312;
-    width: 100px;
+    width: auto;
 }
 
 .login_btn:hover {
@@ -71,12 +77,164 @@ input:focus {
 }
 
 .centers {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -150px;
-    margin-left: -150px;
-    /* width: 100px;
-    height: 100px; */
+    
     align-content: center;
+}
+
+@media screen and (min-width: 1010px) and ( max-width: 1200px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 910px) and ( max-width: 1000px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 810px) and ( max-width: 900px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 710px) and ( max-width: 800px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 610px) and ( max-width: 700px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 2.5%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 510px) and ( max-width: 600px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 25%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 410px) and ( max-width: 500px) and (orientation: portrait) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 310px) and ( max-width: 400px) and (orientation: portrait) {
+    .login-h {
+        
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 210px) and ( max-width: 300px) and (orientation: portrait) {
+    .login-h {
+        
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 1010px) and ( max-width: 1400px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 25%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 910px) and ( max-width: 1000px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 810px) and ( max-width: 900px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 710px) and ( max-width: 800px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 15%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 610px) and ( max-width: 700px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 2.5%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 510px) and ( max-width: 600px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 2.5%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 410px) and ( max-width: 500px) and (orientation: landscape) {
+    .login-h {
+        
+        top: 50%;
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 310px) and ( max-width: 400px) and (orientation: landscape) {
+    .login-h {
+        
+        margin-top: 50%;
+        margin-left: 1%;
+    }
+}
+
+@media screen and (min-width: 210px) and ( max-width: 300px) and (orientation: landscape) {
+    .login-h {
+        
+        margin-top: 50%;
+        margin-left: 1%;
+    }
 }

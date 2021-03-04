@@ -2,8 +2,7 @@ import * as React from 'react';
 import { View } from 'react-native';
 // import NavBar from  './_incl/navbar';
 import Index from './pages/Index';
-// import './_incl/footer';
-// import Heading from './heading/heading';
+import 'bootstrap/dist/css/bootstrap.css';
 
 class Home extends React.Component {
 
@@ -12,9 +11,10 @@ class Home extends React.Component {
             View style = {
                 { flex: 1 }
             } >
-
+            <div className="container pa0 flex justify-center">
             <
             Index / >
+            </div>
             <
             /View>
         );
